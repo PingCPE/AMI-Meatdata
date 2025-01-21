@@ -16,7 +16,7 @@ def lambda_handler(event, context):
 
     # Replace '<instance-id>' with the instance ID you want to query
     # Use event.get("instance_id") to dynamically fetch instance ID if provided
-    target_instance_id = event.get("instance_id", "i-04d27291150792ee5")
+    target_instance_id = event.get("instance_id", "<InstanceID>")
 
     try:
         # Describe the target instance
