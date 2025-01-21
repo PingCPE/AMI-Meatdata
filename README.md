@@ -7,11 +7,16 @@ prerequisite
 
 =========
 
-How to run
+How to run (on zsh terminal)
 1. Clone to local
-2. Install boto3 library
-3. Set AWS credentail (with enough permission to get data)
-4. Run the code with instanceid
+2. (Optional) Source env for call python
+   ```bash
+   python3 -m venv myenv
+   source myenv/bin/activate
+   ```
+   
+4. Set AWS credentail (with enough permission to get data)
+5. Run the code with instanceid
    ```bash
    python fetch_metadata.py --instance-id i-007909b1102d53e3b > result.txt
    ```
