@@ -12,5 +12,7 @@ How to run
 2. install boto3 library
 3. Set AWS credentail (with enough permission to get data)
 4. run the code with instanceid
-   ```python fetch_metadata.py --instance-id i-007909b1102d53e3b > result.txt```
-5. The result will return in json format in file name result.txt
+   ```bash
+   python fetch_metadata.py --instance-id i-007909b1102d53e3b > result.txt
+   ```
+6. The result will return in json format in file name result.txt
